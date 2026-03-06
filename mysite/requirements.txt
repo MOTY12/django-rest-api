@@ -1,0 +1,7 @@
+django
+djangorestframework
+environs
+asgiref
+sqlparse
+tzdata
+django-extensions
