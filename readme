@@ -1,24 +1,60 @@
-How to setup a django project
+```markdown
+# How to Set Up a Django Project
 
-Create a requirements.txt file with the following content:
-`
+To set up a Django project, first create a `requirements.txt` file and add the following dependencies:
+
+```
+
 django
 djangorestframework
 environs
 asgiref
 tzdata
 django-extensions
-`
 
-Then run the following command to install the dependencies:
-`pip install -r requirements.txt`
+```
 
-Next, create a new Django project by running the following command:
+Next, install the dependencies by running the following command:
 
-`django-admin startproject myproject`
+```
 
-This will create a new directory called myproject with the necessary files and folders for a Django project. You can navigate into the project directory using:cd myproject
-To start the development server, run the following command:
-`python manage.py runserver`
-This will start the server and you can access your Django project by opening a web browser and going to http://
+pip install -r requirements.txt
 
+```
+
+After installing the required packages, create a new Django project by running:
+
+```
+
+django-admin startproject myproject
+
+```
+
+This command will create a new directory called `myproject` that contains the necessary files and folders required for a Django application.
+
+Navigate into the project directory using:
+
+```
+
+cd myproject
+
+```
+
+Once inside the project folder, start the Django development server with the following command:
+
+```
+
+python manage.py runserver
+
+```
+
+This will start the development server. You can access your Django project by opening your web browser and visiting:
+
+```
+
+[http://127.0.0.1:8000/](http://127.0.0.1:8000/)
+
+```
+
+If everything is set up correctly, you should see the default Django welcome page.
+```
