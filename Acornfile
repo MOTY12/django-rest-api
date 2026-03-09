@@ -45,4 +45,4 @@ containers: web: {
 images: app: containerBuild: {
 	context:    "./mysite"
 	dockerfile: "./mysite/Dockerfile"
-}
+} 
